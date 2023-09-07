@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#2b86ba, #b5cef4), fixed;
+}
+
+.top {
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    padding: 30px 10px 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.apiKey, .bottom {
+    width:100%;
+    max-width: 470px;
+    display:flex;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.apiKey input {
+    width: 90%;
+    margin: 30px;
+}
+
+.search {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    width: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #7e7c7c;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 16px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 20px;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin: 30px auto 30px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-top: -10px;
+}
+
+.weather h1 {
+    margin-top: -10px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.weather-details-icon {
+    width: 50px;
+    margin: 10px;
+}
+
+.date {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.time {
+    font-size: 16px;
+}
+
+.details {
+    margin: auto;
+    background:rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.details td {
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 100%;
+}
+
+.details tr:nth-child(even){background: rgba(0, 0, 0, 0.2);}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
