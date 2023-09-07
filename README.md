@@ -8,6 +8,12 @@ The most basic of conversation starters.
 
 This is a simple demo using HTML, CSS and JS. Type in a valid city name and see the weather update.
 
-Resources:
-[Weather API](https://www.weatherapi.com)
-[Search icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/search)
+---
+
+**Demo:**
+
+https://github.com/jinyoung-ko/weather-js/assets/72751189/ed05bc73-8e9f-451b-89b6-5143aed92a84
+
+**Resources:**
+- [Weather API](https://www.weatherapi.com)
+- [Search icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/search)
